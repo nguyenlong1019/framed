@@ -1,0 +1,15 @@
+#include <stdint.h>
+
+uint64_t sum_of_squares(uint64_t n) {
+    uint64_t total = 0;
+    for (uint64_t i = 0; i < n; i++) {
+        total += i * i;
+    }
+    return total;
+}
+
+double add_doubles(double a, double b) {
+    return a + b;
+}
+
+// gcc -O2 -shared -fPIC -o libmathlib.so mathlib.c 
