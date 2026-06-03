@@ -1,0 +1,2 @@
+pycurl==7.46.0
+curl-cffi==0.15.0
